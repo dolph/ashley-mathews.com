@@ -1,0 +1,127 @@
+/* 
+    Document   : site
+    Created on : Oct 24, 2010, 10:33:03 PM
+    Author     : antiver
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+body {
+  margin: 0;
+  padding: 0;
+  display: block;
+  background: #7f9234 url('/assets/images/bg.jpg');
+
+  font-family: sans-serif;
+}
+
+#page {
+  width: 700px;
+  margin: 0 auto;
+  padding: 15px 30px;
+  background-color: #fff;
+
+  border: solid transparent;
+  border-width: 7px;
+  border-image: url("/assets/images/borders.png") 7px repeat;
+  -webkit-border-image: url("/assets/images/borders.png") 8 8 repeat;
+  -moz-border-image: url("/assets/images/borders.png") 8 8 repeat;
+}
+#header {
+
+}
+#header #nav {
+  margin: 0;
+  padding: 0;
+}
+#header #nav li {
+  list-style: none;
+  display: inline;
+  padding: 0 10px;
+  font-size: 12px;
+}
+#header #nav li a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #7f9234;
+}
+#header #nav li a:hover {
+  color: #000;
+  border-bottom: 1px #000 dotted;
+}
+#header h1 {
+  margin: 0;
+  padding: 10px 0 0 30px;
+  font-family: "Gill Sans", "Trebuchet MS";
+}
+#header h2 {
+  margin: 0;
+  padding: 0 0 10px 30px;
+
+  font-size: 95%;
+}
+#content {
+
+}
+.content {
+  clear: both;
+}
+#content a {
+  font-weight: bold;
+  color: #346091;
+  text-decoration: none;
+}
+#content a:hover {
+  color: #000;
+  border-bottom: 1px #000 dotted;
+}
+#content p, #content dl {
+  font-size: 15px;
+  line-height: 21px;
+}
+#content .caption {
+  font-size: 13px;
+  margin-bottom: 30px;
+}
+#content ul {
+  margin: 0;
+  padding-bottom: 15px;
+}
+#content dd {
+  margin-bottom: 15px;
+}
+#footer {
+  clear: both;
+  font-size: 10px;
+  color: #aaa;
+  text-align: center;
+}
+
+blockquote p {
+  padding: 10px 45px 10px 45px;
+  font-style: italic;
+  color: #555;
+  text-align: justify;
+  background: url("/assets/images/quote_right.png") bottom right no-repeat;
+}
+
+blockquote {
+  margin-left: 290px;
+  width: 350px;
+  background: url("/assets/images/quote_left.png") top left no-repeat;
+}
+
+cite {
+  margin-left: 290px;
+  width: 300px;
+  display: block;
+  text-align: right;
+  font-style: italic;
+  color: #555;
+  font-size: 12px;
+}
